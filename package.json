@@ -1,0 +1,21 @@
+{
+    "name": "main-repo",
+    "version": "1.0.0",
+    "description": "Repo created just for test git submodules",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "update_sub_repo": "cd ~/sub-repo && ls && git checkout new_branch && cp ~/main-repo ~/sub-repo",
+        "t": "echo "
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MarcelloVSilva/main-repo.git"
+    },
+    "author": "Marcello Silva",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MarcelloVSilva/main-repo/issues"
+    },
+    "homepage": "https://github.com/MarcelloVSilva/main-repo#readme"
+}
